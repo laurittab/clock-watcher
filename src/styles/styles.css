@@ -1,0 +1,47 @@
+/*styling for the main container */
+.mainbox {
+margin:auto;
+margin-top:10px;
+width: 90%;
+padding:20px;
+display: block;
+justify-content: center;
+text-align: center;
+color: rgb(72, 72, 72);
+}
+
+.description{
+  width:100%;
+  text-align: left;
+  color: rgb(12, 12, 175);
+}
+
+h2 {
+  text-align: center;
+}
+/*larger clock display */
+.clock{
+  width: 100%;
+  font-size: 15vw;
+}
+/*small date and time zone information */
+.small-text{
+  font-size: 1em;
+}
+
+.button{
+  margin-top: 20px;
+  padding: 5px;
+  border-radius:2px;
+  font-weight: bold;
+}
+.start{
+  color: green;
+  border: 1px dashed green
+  ; 
+}
+.stop{
+  color: red;
+  border: 1px dashed red
+  ; 
+}
